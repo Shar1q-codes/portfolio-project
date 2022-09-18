@@ -1,38 +1,368 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background-color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-container{
+  background-color: #FBF3E4;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-section ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu-section{
+  width: 700px;
+  margin: 30px 0 0 50px ;
+}
+
+.name-section{
+  font-size: 42px;
+  font-weight: 600;
+  color: #105652;
+  margin: 10px 0 0 0 ;
+}
+
+.wave-bg{
+  background-color: rgb(16, 86, 82);
+  margin: 0px 0 0 0;
+  height: 475px;
+}
+
+.the-wave{
+  margin: 170px 0 0 0;
+}
+
+.hero-container{
+  position: relative;
+  margin: -470px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.desc-section{
+  margin: 40px 0 0 30px;
+}
+
+.p-name{
+  font-size: 42px;
+  color: #FCA738;
+}
+
+.p-job{
+  font-size: 42px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.desc-section-buttons{
+  text-align: left;
+  margin: 70px 0 0 0;
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.desc-section-buttons button{
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 30px;
+  /* margin: 30px 0 0 25px; */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-shadow: 0 0 10px white;
+}
+
+.hire-me-btn{
+  background-color: #09BCAB;
+  box-shadow: 0 20px 50px #0bfae2;
+}
+
+button:active{
+  transform: translateY(2px);
+}
+
+.get-resume-btn{
+  background-color: #FCA738;
+  box-shadow: 0 20px 50px #FCA738;
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+.aboutme-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 40px auto 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px wheat;
+  border-radius: 30px;
+}
+
+.aboutme-desc{
+  margin: 40px 0 0 0;
+}
+
+.aboutme-desc h2{
+  color: #105652;
+  text-align: left;
+  font-size: 38px;
+}
+
+.aboutme-desc hr{
+  background-color: #FCA738;
+  border: none;
+  width: 230px;
+  height: 7px;
+}
+
+.aboutme-desc p{
+  color: #105652;
+  font-size: 20px;
+  width: 450px;
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+.aboutme-container svg{
+  height: 50px;
+  margin: 10px 30px 0 0;
+}
+
+.languages{
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+  margin: 30px 0 0 0;
+}
+
+.languages h3{
+  color: #105652;
+  text-align: left;
+  padding: 4px;
+}
+
+.portfolio-container{
+  margin: 60px 0 0 0;
+}
+
+.portfolio-container h2{
+  color: #105652;
+  font-size: 38px;
+}
+
+.portfolio-container hr{
+  background-color: #FCA738;
+  border: none;
+  width: 290px;
+  height: 7px;
+  margin: 0 0 0 530px;
+}
+
+.sites{
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.sites img{
+  width: 400px;
+  margin: 20px 0 0px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px violet;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+.js-icon{
+  background-color: black;
+  height: 100px;
+}
+
+.link:hover{
+  cursor: pointer;
+  color: #FCA738;
+}
+
+.resume-container{
+  margin: 70px 0 0 0;
+}
+
+.resume{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.ball{
+  height: 10px;
+  width: 10px;
+  background-color: brown;
+  border-radius: 50%;
+  margin: 10px 20px 10px 0 ;
+  top: 30px;
+  left: 20px;
+  position: relative;
+}
+
+/* .resume hr{
+  background-color: #FCA738;
+  border: none;
+  width: 340px;
+  height: 4px;
+  margin: 0 0 0 04px;
+} */
+
+.resume img{
+  position: relative;
+  top: -50px;
+}
+
+.resume p{
+  font-size: 20px;
+  color: burlywood;
+
+}
+
+.resume-container h2{
+  color: #105652;
+  font-size: 32px;
+  padding: 4px;
+  margin: 0 auto;
+}
+
+.resume-container .hr{
+  background-color: #FCA738;
+  border: none;
+  width: 140px;
+  height: 7px;
+  margin: 0 0 0 604px;
+}
+
+.people{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto 20px auto;
+  width: 90%;
+  box-shadow: 0 0 5px black;
+  
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.popo{
+  height: 180px;
+  border-radius: 50%;
+}
+
+.people-container{
+  margin: 70px 0 0 0;
+}
+
+.people-container h2{
+  color: #105652;
+  font-size: 32px;
+  padding: 4px;
+}
+
+.people-container hr{
+  background-color: #FCA738;
+  border: none;
+  width: 430px;
+  height: 7px;
+  margin: 0 0 0 460px;
+}
+
+.people div{
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.contact-container input{
+  display: block;
+}
+
+.contact-container{
+  text-align: left;
+  margin: 0 auto 20px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.contact-container p{
+  width: 500px;
+  margin: 40px 0 0 0;
+}
+
+.connect{
+  background-color: whitesmoke;
+  padding: 80px;
+}
+
+.form{
+  background-color: peachpuff;  
+  padding: 80px;
+}
+
+.form form{
+  margin: 40px 0 0 0;
+}
+
+.form input{
+  margin: 10px 0 30px 0;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+  width: 450px;
+}
+
+#msg{
+  height: 80px;
+}
+
+.contact-container{
+  box-shadow: 0 0 10px black;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: peachpuff;
+  margin: 40px auto 0 auto;
+  height: 100px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
 }
