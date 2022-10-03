@@ -12,7 +12,7 @@ const Header = () => {
                 <ul>
                     <li><HashLink to='/' className='link'>Home</HashLink></li> 
                     <li><HashLink to='#about' smooth className='link'>About</HashLink></li>
-                   <li> <HashLink to='#portfolio' smooth className='link'>Portfolio</HashLink></li>
+                   <li> <HashLink to='#portfolio' smooth className='link'>Projects</HashLink></li>
                     <li><HashLink to='#resume' smooth className='link'>Resume</HashLink></li>
                     <li><HashLink to= '#contact' smooth className='link'>Contact</HashLink></li>
                 </ul>

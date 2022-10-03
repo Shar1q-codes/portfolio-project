@@ -11,8 +11,8 @@ const AboutMe = () => {
         <div className='aboutme-desc'>
             <h2>ABOUT ME</h2>
             <hr />
-            <p>I'm a web designer & front-end developer with 7 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
-            <p>I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.</p>
+            <p>I'm a student at PrepBytes learning MERNstack development. I have completed my Bachelors in Enginering from ISL Engineering College.</p>
+            <p>I enjoy turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me gaming, reading or playing football.</p>
             <div className="languages">
                 <h3>Languages/Library/Technologies</h3>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" className='html-icon'><path fill='#E34C26' d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>

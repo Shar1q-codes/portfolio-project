@@ -10,7 +10,7 @@ import todoui from './Images/todoui.PNG'
 const Portfolio = () => {
   return (
     <div className='portfolio-container' id='portfolio'>
-        <h2>MY PORTFOLIO</h2>
+        <h2>MY PROJECTS</h2>
         <hr />
         <div className="sites">
             <a href='https://shar1q-codes.github.io/backtracking/' target='blank'><img src={back} alt="" /></a>
